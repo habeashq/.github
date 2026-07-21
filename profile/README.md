@@ -3,7 +3,6 @@
   <img src="assets/keel-logo.svg" alt="Keel" width="300">
 </picture>
 
-
 **An operating layer that makes agentic AI safe, observable, and auditable** — deployable to Azure, Microsoft Fabric, or Databricks.
 
 > *The keel is the backbone that keeps the ship upright. Keel is the backbone that keeps agent-authored work safe to ship.*
