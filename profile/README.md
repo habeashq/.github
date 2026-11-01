@@ -1,18 +1,21 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/keel-logo-dark.svg">
-  <img src="assets/keel-logo.svg" alt="Keel" width="300">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/habeas-logo-dark.svg">
+  <img src="assets/habeas-logo.svg" alt="Habeas" width="300">
 </picture>
 
-**An operating layer that makes agentic AI safe, observable, and auditable** — deployable to Azure, Microsoft Fabric, or Databricks.
+**The operating layer that makes agentic AI safe, observable and auditable,** on Azure,
+Microsoft Fabric or Databricks.
 
-> *The keel is the backbone that keeps the ship upright. Keel is the backbone that keeps agent-authored work safe to ship.*
+As AI agents become the main source of change in data platforms, "we govern our AI" has to
+be more than a claim. Habeas turns it into evidence an auditor can check: every change your
+people or your agents make carries a record of who did it, who approved it, and which
+controls fired.
 
-As AI agents become the dominant source of change in data platforms, "we govern our AI" has to become more than a claim. Keel turns it into **auditor-grade evidence**:
+- **A record of every change:** who or what made it, and why
+- **Gates that leave evidence:** a control that fires writes a record; one that does not is only a claim
+- **Separation of duties:** an agent cannot approve its own work
+- **Governed rollback:** reversing a change goes through the same gates as shipping one
+- **Evidence in your own estate:** the record lives in your Databricks, Fabric or Azure
 
-- **Attributable decision graph** — every agent action traceable to who, what, and why
-- **Policy gates logged as evidence** — controls that fire leave a record; a control that isn't logged is a claim
-- **Eval coverage as control evidence** — verification is part of the audit trail, not a side process
-- **Governed rollback** — reversing a change goes through the same gates as shipping one, with the reason on record
-- **Separation of duties** — agent and human identity cryptographically distinct
-
-Built for regulated organizations: OSFI B-13/E-23, NI 52-109, Quebec Law 25, SOC 2, ISO 42001.
+Built in Canada for regulated organizations: OSFI B-13 and E-23, NI 52-109, Quebec Law 25,
+SOC 2 and ISO 42001.
